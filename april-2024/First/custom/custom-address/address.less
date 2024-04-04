@@ -1,0 +1,27 @@
+.address-dd {
+    position: absolute;
+    z-index: 1000;
+    height: auto;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+}
+
+.address-dd:not(:empty) {
+    display: block;
+    border: 1px solid #a1a1a1;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 20px -15px rgba(66, 68, 90, 1);
+}
+
+.address-dd__item {
+    padding: 10px 5px;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.address-dd__item:last-child {
+    border-bottom: none;
+}
